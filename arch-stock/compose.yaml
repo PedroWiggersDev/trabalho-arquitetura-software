@@ -1,0 +1,14 @@
+services:
+  arch-stock:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - dados-estoque:/work/data
+    restart: unless-stopped
+    init: true
+
+volumes:
+  dados-estoque:
