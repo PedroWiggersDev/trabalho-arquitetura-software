@@ -1,6 +1,6 @@
-package com.archstock.adapter.in.rest;
+package com.archstock.api.rest;
 
-import com.archstock.application.ServicoProduto;
+import com.archstock.application.service.ServicoProduto;
 import com.archstock.domain.Produto;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;

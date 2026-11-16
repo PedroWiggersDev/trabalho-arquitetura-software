@@ -1,4 +1,4 @@
-package com.archstock.adapter.out.persistence;
+package com.archstock.infrastructure.persistence;
 
 import com.archstock.application.port.RepositorioProduto;
 import com.archstock.domain.Produto;

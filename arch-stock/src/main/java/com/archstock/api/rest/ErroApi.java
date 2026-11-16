@@ -1,4 +1,4 @@
-package com.archstock.adapter.in.rest;
+package com.archstock.api.rest;
 
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
 

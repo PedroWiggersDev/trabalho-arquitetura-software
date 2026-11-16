@@ -32,9 +32,15 @@ Requisitos: JDK 17 ou 21 e Maven 3.9+.
 Na pasta `arch-stock`:
 
 ```bash
-export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+export JAVA_HOME="$(/usr/libexec/java_home -v 21)"
+export PATH="$JAVA_HOME/bin:$PATH"
+mvn -version
 mvn quarkus:dev
 ```
+
+Confirme que `mvn -version` mostra Java 21 antes de iniciar. O `maven.compiler.release`
+define a versão do código compilado, mas não escolhe a JVM que executa o Quarkus.
+O Java 27 não é compatível com a versão do Byte Buddy usada pelo Quarkus 3.20.2.
 
 - Swagger UI: <http://localhost:8080/q/swagger-ui/>
 - Especificação OpenAPI: <http://localhost:8080/q/openapi>

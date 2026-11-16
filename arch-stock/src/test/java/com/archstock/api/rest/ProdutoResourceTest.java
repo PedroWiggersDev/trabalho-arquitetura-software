@@ -1,4 +1,4 @@
-package com.archstock.adapter.in.rest;
+package com.archstock.api.rest;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

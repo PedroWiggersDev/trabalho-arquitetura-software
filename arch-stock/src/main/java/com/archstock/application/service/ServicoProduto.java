@@ -1,4 +1,4 @@
-package com.archstock.application;
+package com.archstock.application.service;
 
 import com.archstock.application.exception.ProdutoJaCadastradoException;
 import com.archstock.application.exception.ProdutoNaoEncontradoException;
