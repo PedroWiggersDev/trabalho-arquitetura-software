@@ -2,7 +2,7 @@ package com.archstock.application.service;
 
 import com.archstock.application.exception.ProdutoJaCadastradoException;
 import com.archstock.application.exception.ProdutoNaoEncontradoException;
-import com.archstock.application.port.PoliticaMovimentacaoEstoque;
+import com.archstock.application.policy.PoliticaMovimentacaoEstoque;
 import com.archstock.application.port.RepositorioProduto;
 import com.archstock.domain.Produto;
 import com.archstock.domain.TipoMovimentacao;

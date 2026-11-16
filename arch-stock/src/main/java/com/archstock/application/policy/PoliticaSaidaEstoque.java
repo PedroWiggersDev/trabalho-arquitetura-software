@@ -1,6 +1,5 @@
 package com.archstock.application.policy;
 
-import com.archstock.application.port.PoliticaMovimentacaoEstoque;
 import com.archstock.domain.Produto;
 import com.archstock.domain.TipoMovimentacao;
 import jakarta.enterprise.context.ApplicationScoped;

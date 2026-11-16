@@ -1,4 +1,4 @@
-package com.archstock.application.port;
+package com.archstock.application.policy;
 
 import com.archstock.domain.Produto;
 import com.archstock.domain.TipoMovimentacao;
